@@ -241,7 +241,6 @@ header .icons #menu-bars{
     font-weight: 400;
 }
 
-
 .side-bar{
     background: var(--green);
     padding:2rem;
@@ -259,7 +258,7 @@ header .icons #menu-bars{
     border:.2rem solid rgba(78, 205, 61, 0.329);
     border-radius: .5rem;
     position: relative;
-    width: 112%; height: 60rem;
+    width: 112%; height: 70rem;
     top: 26%; right: 6%;
 }
 
@@ -274,7 +273,6 @@ header .icons #menu-bars{
     position: relative;
     top: -1.2rem;
 }
-
 
 .side-bar .image img{
     margin-top: -2rem;
@@ -297,7 +295,7 @@ header .icons #menu-bars{
     bottom: 6rem; left: 80%;
     color: var(--green);
     font-size: 1.7rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .side-bar .image hr{
@@ -308,6 +306,56 @@ header .icons #menu-bars{
     margin-top: -30px;
 }
 
+.side-bar .body .cart-list .total{
+    margin-left: 2rem;
+}
+
+.side-bar .body .cart-list .total h2{
+    font-weight: 600;
+}
+
+.side-bar .body .cart-list .total h3{
+    position: relative;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    visibility: inherit;
+    color: black;
+}
+
+.side-bar .total hr{
+    position: relative;
+    background: var(--green);
+    height: 2px; width: 100%;
+    margin: 10px auto;
+    margin-top: 0px;
+}
+
+.side-bar .total span{
+    position: relative;
+    bottom: 2.7rem; left: 79%;
+    color: var(--green);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.side-bar .body .cart-list .total a{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    display: inline-block;
+    color: #fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .6rem 2rem;
+}
+
+.side-bar .body .cart-list .total a:hover{
+    font-size: 1.2rem;
+    background: var(--green);
+    padding: .5rem 1rem;
+}
 
 .footer .box-container{
     display: grid;
@@ -387,7 +435,7 @@ header .icons #menu-bars{
         border:.2rem solid rgba(78, 205, 61, 0.329);
         border-radius: .5rem;
         position: relative;
-        width: 118%; height: 60rem;
+        width: 118%; height: 65rem;
         top: 26%; right: 9%;
         margin-top: .5rem;
     }
@@ -413,7 +461,7 @@ header .icons #menu-bars{
         border:.2rem solid rgba(78, 205, 61, 0.329);
         border-radius: .5rem;
         position: relative;
-        width: 118%; height: 60rem;
+        width: 120%; height: 65rem;
         top: 26%; right: 9%;
         margin-top: .5rem;
     }
@@ -443,6 +491,34 @@ header .icons #menu-bars{
         color: var(--green);
         font-size: 1.2rem;
         font-weight: 700;
+    }
+
+    .side-bar .body .cart-list .total h2{
+        font-weight: 600;
+        margin-left: -1rem;
+    }
+    
+    .side-bar .body .cart-list .total h3{
+        position: relative;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        visibility: inherit;
+        color: black;
+        margin-left: -1rem;
+    }
+
+    .side-bar .total hr{
+        position: relative;
+        background: var(--green);
+        height: 1.5px; width: 112%;
+        margin: 10px auto;
+        margin-top: 0px;
+        margin-left: -2rem;
+    }
+
+    .side-bar .body .cart-list .total h1{
+        margin-left: -1rem;
     }
 
 }
@@ -477,7 +553,7 @@ header .icons #menu-bars{
         border:.2rem solid rgba(78, 205, 61, 0.329);
         border-radius: .5rem;
         position: relative;
-        width: 118%; height: 60rem;
+        width: 118%; height: 70rem;
         top: 26%; right: 9%;
         margin-top: .5rem;
     }
@@ -495,7 +571,7 @@ header .icons #menu-bars{
         position: relative;
         bottom: 4rem; left: 20%;
         color: var(--black);
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         margin-top: 1rem;
         margin-left: 2rem;
     }
@@ -504,7 +580,43 @@ header .icons #menu-bars{
         position: relative;
         bottom: 7rem; left: 90%;
         color: var(--green);
-        font-size: 1rem;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .side-bar .body .cart-list .total h2{
+        font-weight: 600;
+        margin-left: -1rem;
+    }
+    
+    .side-bar .body .cart-list .total h3{
+        position: relative;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        visibility: inherit;
+        color: black;
+        margin-left: -1rem;
+    }
+
+    .side-bar .body .cart-list .total h1{
+        margin-left: -1rem;
+    }
+
+    .side-bar .total hr{
+        position: relative;
+        background: var(--green);
+        height: 1.5px; width: 120%;
+        margin: 10px auto;
+        margin-top: 0px;
+        margin-left: -2rem;
+    }
+
+    .side-bar .total span{
+        position: relative;
+        bottom: 2.3rem; left: 79%;
+        color: var(--green);
+        font-size: 1.3rem;
         font-weight: 700;
     }
 
@@ -593,7 +705,7 @@ header .icons #menu-bars{
         border:.2rem solid rgba(78, 205, 61, 0.329);
         border-radius: .5rem;
         position: relative;
-        width: 125%; height: 60rem;
+        width: 125%; height: 62rem;
         top: 26%; right: 12%;
         margin-top: .5rem;
     }
@@ -618,9 +730,93 @@ header .icons #menu-bars{
     
     .side-bar .image span{
         position: relative;
-        bottom: 7rem; left: 90%;
+        bottom: 6rem; left: 90%;
         color: var(--green);
         font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .side-bar .body .cart-list .total h2{
+        font-weight: 600;
+        margin-left: -1rem;
+    }
+    
+    .side-bar .body .cart-list .total h3{
+        position: relative;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        visibility: inherit;
+        color: black;
+        margin-left: -1rem;
+    }
+
+    .side-bar .body .cart-list .total h1{
+        margin-left: -1rem;
+    }
+
+    .side-bar .total hr{
+        position: relative;
+        background: var(--green);
+        height: 1.5px; width: 120%;
+        margin: 10px auto;
+        margin-top: 0px;
+        margin-left: -2rem;
+    }
+
+    .side-bar .total span{
+        position: relative;
+        bottom: 2.3rem; left: 79%;
+        color: var(--green);
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 767px){
+
+    .side-bar .image h1{
+        position: relative;
+        bottom: 4rem; left: 20%;
+        color: var(--black);
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    
+    .side-bar .image span{
+        position: relative;
+        bottom: 6rem; left: 90%;
+        color: var(--green);
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .side-bar .body .cart-list .total h2{
+        font-weight: 400;
+    }
+    
+    .side-bar .body .cart-list .total h3{
+        position: relative;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        visibility: inherit;
+        color: black;
+    }
+    .side-bar .total hr{
+        position: relative;
+        background: var(--green);
+        height: 1.5px; width: 120%;
+        margin: 10px auto;
+        margin-top: 0px;
+        margin-left: -2rem;
+    }
+
+    .side-bar .total span{
+        position: relative;
+        bottom: 2.3rem; left: 79%;
+        color: var(--green);
+        font-size: 1.3rem;
         font-weight: 700;
     }
 }
@@ -661,6 +857,7 @@ header .icons #menu-bars{
 @media(max-width: 579.9px){
     .cart .box{
         padding:2rem;
+        margin-left: -.5rem;
         box-shadow:var(--box-shadow);
         border:.1rem solid rgba(0,0,0,.2);
         border-radius: .5rem;
@@ -670,13 +867,14 @@ header .icons #menu-bars{
 
     .side-bar{
         background: #fff;
-        margin-top: 2rem;
+        margin-top: 4rem;
+        margin-left: -.5rem;
         padding:2rem;
         box-shadow:var(--box-shadow);
         border:.2rem solid rgba(78, 205, 61, 0.329);
         border-radius: .5rem;
         position: relative;
-        width: 90%; height: 60rem;
+        width: 90%; height: 70rem;
         top: 15%; left: 5%;
         visibility: inherit;
     }
@@ -732,6 +930,36 @@ header .icons #menu-bars{
         font-size: 1.7rem;
         font-weight: 700;
     }
+
+    .side-bar .body .cart-list .total h2{
+        font-weight: 600;
+    }
+    
+    .side-bar .body .cart-list .total h3{
+        position: relative;
+        margin-top: 2rem;
+        font-size: 1.7rem;
+        font-weight: 600;
+        visibility: inherit;
+        color: black;
+    }
+
+    .side-bar .total hr{
+        position: relative;
+        background: var(--green);
+        height: 2px; width: 100%;
+        margin: 10px auto;
+        margin-top: 0px;
+    }
+
+    .side-bar .total span{
+        position: relative;
+        bottom: 2.5rem; left: 79%;
+        color: var(--green);
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    
 }
 
 @media (max-width: 450px){
@@ -779,31 +1007,82 @@ header .icons #menu-bars{
         font-weight: 700;
     }
 
+    .side-bar .total hr{
+        position: relative;
+        background: var(--green);
+        height: 2px; width: 105%;
+        margin: 10px auto;
+        margin-top: 0px;
+        margin-left: -2rem;
+    }
+
+    .side-bar .body .cart-list .total a{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 9rem;
+        display: inline-block;
+        color: #fff;
+        background: var(--black);
+        border-radius: .5rem;
+        cursor: pointer;
+        padding: .6rem 2rem;
+    }
+    
+    .side-bar .body .cart-list .total a:hover{
+        font-size: 1.2rem;
+        background: var(--green);
+        padding: .5rem 1rem;
+    }
+
 }
 
 @media(max-width: 428px){
-
-
     .side-bar .body{    
         position: relative;
-        width: 110%; height: 5rem;
-        top: -13%; left: -5%;
+        width: 112%; height: 5rem;
+        top: -13%; left: -6%;
         margin-top: .5rem;
     }
 
     .cart .box .user span{
         position: absolute;
-        top: 15%; right: 5%;
+        top: 10%; right: 5%;
         color: var(--green);
         margin-left: 1rem;
-        font-size: 2.2rem;
+        font-size: 2rem;
         font-weight: 700;
     }
+
+    .side-bar .total hr{
+        position: relative;
+        background: var(--green);
+        height: 2px; width: 107%;
+        margin: 10px auto;
+        margin-top: 0px;
+        margin-left: -2rem;
+    }
+
+    .side-bar .body .cart-list .total a{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 8rem;
+        display: inline-block;
+        color: #fff;
+        background: var(--black);
+        border-radius: .5rem;
+        cursor: pointer;
+        padding: .6rem 2rem;
+    }
+    
+    .side-bar .body .cart-list .total a:hover{
+        font-size: 1.2rem;
+        background: var(--green);
+        padding: .5rem 1rem;
+    }
+
 }
 
 @media(max-width: 321px){
-
-
     .side-bar .body{
         width: 114%; height: 5rem;
         top: -13%; left: -7%;
@@ -849,7 +1128,7 @@ header .icons #menu-bars{
         bottom: .5rem; left: 20%;
         margin-left: -0.5rem;
         color: var(--black);
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     
     .side-bar .image span{
@@ -858,5 +1137,25 @@ header .icons #menu-bars{
         color: var(--green);
         font-size: 1.5rem;
         font-weight: 700;
+    }
+
+    .side-bar .body .cart-list .total a{
+        position: relative;
+        top: 2rem;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-left: 11rem;
+        display: inline-block;
+        color: #fff;
+        background: var(--black);
+        border-radius: .5rem;
+        cursor: pointer;
+        padding: .8rem 4rem;
+    }
+    
+    .side-bar .body .cart-list .total a:hover{
+        font-size: 1.2rem;
+        background: var(--green);
+        padding: .8rem 4rem;
     }
 }
